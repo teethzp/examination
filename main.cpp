@@ -4,6 +4,8 @@
 #include "FirstPositionOfTarget/FirstPositionOfTargetTest.h"
 #include "RotatedSortedArray/RotatedSortedArray.h"
 #include "BinaryTree/BinaryTree.h"
+#include "NumberOfIslands/NumberOfIslands.h"
+#include "TopologicalSorting/TopologicalSorting.h"
 
 using namespace std;
 
@@ -64,15 +66,23 @@ int main() {
 //    int d = b.MaxDepthByDivideConquer(&(b.theRoot));
 //    cout << d << endl;
 
-    // 测试递归实现的查找二叉树所有路径
-    BinaryTree b;
-    b.InitializeTree();
-    vector<string> paths;
-    paths = b.AllPaths(&(b.theRoot));
-    for (int i = 0; i < paths.size(); i++) {
-        cout << paths[i] << endl;
-    }
+//    // 测试递归实现的查找二叉树所有路径
+//    BinaryTree b;
+//    b.InitializeTree();
+//    vector<string> paths;
+//    paths = b.AllPaths(&(b.theRoot));
+//    for (int i = 0; i < paths.size(); i++) {
+//        cout << paths[i] << endl;
+//    }
 
     // 测试二叉树层级遍历
 
+        // 测试拓扑排序
+//    TopologicalSortingTest test;
+//    test.Test();
+
+//    // 测试岛屿个数
+//    NumberOfIslandsTest test;
+//    test.Test();
+    
 }

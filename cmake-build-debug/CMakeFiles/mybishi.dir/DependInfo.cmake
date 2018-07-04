@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/teeth/CLionProjects/mybishi/BinaryTree/BinaryTree.cpp" "/home/teeth/CLionProjects/mybishi/cmake-build-debug/CMakeFiles/mybishi.dir/BinaryTree/BinaryTree.cpp.o"
+  "/home/teeth/CLionProjects/mybishi/BreadthFirstSearch/BreadthFirst.cpp" "/home/teeth/CLionProjects/mybishi/cmake-build-debug/CMakeFiles/mybishi.dir/BreadthFirstSearch/BreadthFirst.cpp.o"
   "/home/teeth/CLionProjects/mybishi/FirstPositionOfTarget/FirstPositionOfTarget.cpp" "/home/teeth/CLionProjects/mybishi/cmake-build-debug/CMakeFiles/mybishi.dir/FirstPositionOfTarget/FirstPositionOfTarget.cpp.o"
   "/home/teeth/CLionProjects/mybishi/RotatedSortedArray/RotatedSortedArray.cpp" "/home/teeth/CLionProjects/mybishi/cmake-build-debug/CMakeFiles/mybishi.dir/RotatedSortedArray/RotatedSortedArray.cpp.o"
   "/home/teeth/CLionProjects/mybishi/main.cpp" "/home/teeth/CLionProjects/mybishi/cmake-build-debug/CMakeFiles/mybishi.dir/main.cpp.o"

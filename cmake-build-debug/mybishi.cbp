@@ -90,6 +90,12 @@
 		<Unit filename="/home/teeth/CLionProjects/mybishi/BinaryTree/BinaryTree.h">
 			<Option target="mybishi"/>
 		</Unit>
+		<Unit filename="/home/teeth/CLionProjects/mybishi/BreadthFirstSearch/BreadthFirst.cpp">
+			<Option target="mybishi"/>
+		</Unit>
+		<Unit filename="/home/teeth/CLionProjects/mybishi/BreadthFirstSearch/BreadthFirst.h">
+			<Option target="mybishi"/>
+		</Unit>
 		<Unit filename="/home/teeth/CLionProjects/mybishi/FirstPositionOfTarget/FirstPositionOfTarget.cpp">
 			<Option target="mybishi"/>
 		</Unit>
@@ -99,10 +105,19 @@
 		<Unit filename="/home/teeth/CLionProjects/mybishi/FirstPositionOfTarget/FirstPositionOfTargetTest.h">
 			<Option target="mybishi"/>
 		</Unit>
+		<Unit filename="/home/teeth/CLionProjects/mybishi/NumberOfIslands/NumberOfIslands.h">
+			<Option target="mybishi"/>
+		</Unit>
 		<Unit filename="/home/teeth/CLionProjects/mybishi/RotatedSortedArray/RotatedSortedArray.cpp">
 			<Option target="mybishi"/>
 		</Unit>
 		<Unit filename="/home/teeth/CLionProjects/mybishi/RotatedSortedArray/RotatedSortedArray.h">
+			<Option target="mybishi"/>
+		</Unit>
+		<Unit filename="/home/teeth/CLionProjects/mybishi/TopologicalSorting/TopologicalSorting.h">
+			<Option target="mybishi"/>
+		</Unit>
+		<Unit filename="/home/teeth/CLionProjects/mybishi/ZombieInMatrix/ZombieMatrix.h">
 			<Option target="mybishi"/>
 		</Unit>
 		<Unit filename="/home/teeth/CLionProjects/mybishi/main.cpp">

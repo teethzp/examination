@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/mybishi.dir/FirstPositionOfTarget/FirstPositionOfTarget.cpp.o"
   "CMakeFiles/mybishi.dir/RotatedSortedArray/RotatedSortedArray.cpp.o"
   "CMakeFiles/mybishi.dir/BinaryTree/BinaryTree.cpp.o"
+  "CMakeFiles/mybishi.dir/BreadthFirstSearch/BreadthFirst.cpp.o"
   "mybishi.pdb"
   "mybishi"
 )

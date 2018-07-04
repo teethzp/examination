@@ -150,6 +150,33 @@ BinaryTree/BinaryTree.cpp.s:
 	$(MAKE) -f CMakeFiles/mybishi.dir/build.make CMakeFiles/mybishi.dir/BinaryTree/BinaryTree.cpp.s
 .PHONY : BinaryTree/BinaryTree.cpp.s
 
+BreadthFirstSearch/BreadthFirst.o: BreadthFirstSearch/BreadthFirst.cpp.o
+
+.PHONY : BreadthFirstSearch/BreadthFirst.o
+
+# target to build an object file
+BreadthFirstSearch/BreadthFirst.cpp.o:
+	$(MAKE) -f CMakeFiles/mybishi.dir/build.make CMakeFiles/mybishi.dir/BreadthFirstSearch/BreadthFirst.cpp.o
+.PHONY : BreadthFirstSearch/BreadthFirst.cpp.o
+
+BreadthFirstSearch/BreadthFirst.i: BreadthFirstSearch/BreadthFirst.cpp.i
+
+.PHONY : BreadthFirstSearch/BreadthFirst.i
+
+# target to preprocess a source file
+BreadthFirstSearch/BreadthFirst.cpp.i:
+	$(MAKE) -f CMakeFiles/mybishi.dir/build.make CMakeFiles/mybishi.dir/BreadthFirstSearch/BreadthFirst.cpp.i
+.PHONY : BreadthFirstSearch/BreadthFirst.cpp.i
+
+BreadthFirstSearch/BreadthFirst.s: BreadthFirstSearch/BreadthFirst.cpp.s
+
+.PHONY : BreadthFirstSearch/BreadthFirst.s
+
+# target to generate assembly for a file
+BreadthFirstSearch/BreadthFirst.cpp.s:
+	$(MAKE) -f CMakeFiles/mybishi.dir/build.make CMakeFiles/mybishi.dir/BreadthFirstSearch/BreadthFirst.cpp.s
+.PHONY : BreadthFirstSearch/BreadthFirst.cpp.s
+
 FirstPositionOfTarget/FirstPositionOfTarget.o: FirstPositionOfTarget/FirstPositionOfTarget.cpp.o
 
 .PHONY : FirstPositionOfTarget/FirstPositionOfTarget.o
@@ -297,6 +324,9 @@ help:
 	@echo "... BinaryTree/BinaryTree.o"
 	@echo "... BinaryTree/BinaryTree.i"
 	@echo "... BinaryTree/BinaryTree.s"
+	@echo "... BreadthFirstSearch/BreadthFirst.o"
+	@echo "... BreadthFirstSearch/BreadthFirst.i"
+	@echo "... BreadthFirstSearch/BreadthFirst.s"
 	@echo "... FirstPositionOfTarget/FirstPositionOfTarget.o"
 	@echo "... FirstPositionOfTarget/FirstPositionOfTarget.i"
 	@echo "... FirstPositionOfTarget/FirstPositionOfTarget.s"

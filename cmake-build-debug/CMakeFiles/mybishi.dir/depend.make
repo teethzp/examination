@@ -4,6 +4,9 @@
 CMakeFiles/mybishi.dir/BinaryTree/BinaryTree.cpp.o: ../BinaryTree/BinaryTree.cpp
 CMakeFiles/mybishi.dir/BinaryTree/BinaryTree.cpp.o: ../BinaryTree/BinaryTree.h
 
+CMakeFiles/mybishi.dir/BreadthFirstSearch/BreadthFirst.cpp.o: ../BreadthFirstSearch/BreadthFirst.cpp
+CMakeFiles/mybishi.dir/BreadthFirstSearch/BreadthFirst.cpp.o: ../BreadthFirstSearch/BreadthFirst.h
+
 CMakeFiles/mybishi.dir/FirstPositionOfTarget/FirstPositionOfTarget.cpp.o: ../FirstPositionOfTarget/FirstPositionOfTarget.cpp
 CMakeFiles/mybishi.dir/FirstPositionOfTarget/FirstPositionOfTarget.cpp.o: ../FirstPositionOfTarget/FirstPositionOfTarget.h
 
@@ -13,7 +16,9 @@ CMakeFiles/mybishi.dir/RotatedSortedArray/RotatedSortedArray.cpp.o: ../RotatedSo
 CMakeFiles/mybishi.dir/main.cpp.o: ../BinaryTree/BinaryTree.h
 CMakeFiles/mybishi.dir/main.cpp.o: ../FirstPositionOfTarget/FirstPositionOfTarget.h
 CMakeFiles/mybishi.dir/main.cpp.o: ../FirstPositionOfTarget/FirstPositionOfTargetTest.h
+CMakeFiles/mybishi.dir/main.cpp.o: ../NumberOfIslands/NumberOfIslands.h
 CMakeFiles/mybishi.dir/main.cpp.o: ../RotatedSortedArray/RotatedSortedArray.h
+CMakeFiles/mybishi.dir/main.cpp.o: ../TopologicalSorting/TopologicalSorting.h
 CMakeFiles/mybishi.dir/main.cpp.o: ../main.cpp
 CMakeFiles/mybishi.dir/main.cpp.o: ../mergesort/MergeSort.h
 CMakeFiles/mybishi.dir/main.cpp.o: ../mergesort/MergeSortTest.h
