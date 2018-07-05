@@ -14,9 +14,11 @@ CMakeFiles/mybishi.dir/RotatedSortedArray/RotatedSortedArray.cpp.o: ../RotatedSo
 CMakeFiles/mybishi.dir/RotatedSortedArray/RotatedSortedArray.cpp.o: ../RotatedSortedArray/RotatedSortedArray.h
 
 CMakeFiles/mybishi.dir/main.cpp.o: ../BinaryTree/BinaryTree.h
+CMakeFiles/mybishi.dir/main.cpp.o: ../CombinationSum/CombinationSum.h
 CMakeFiles/mybishi.dir/main.cpp.o: ../FirstPositionOfTarget/FirstPositionOfTarget.h
 CMakeFiles/mybishi.dir/main.cpp.o: ../FirstPositionOfTarget/FirstPositionOfTargetTest.h
 CMakeFiles/mybishi.dir/main.cpp.o: ../NumberOfIslands/NumberOfIslands.h
+CMakeFiles/mybishi.dir/main.cpp.o: ../Permmutations/Permutations.h
 CMakeFiles/mybishi.dir/main.cpp.o: ../RotatedSortedArray/RotatedSortedArray.h
 CMakeFiles/mybishi.dir/main.cpp.o: ../TopologicalSorting/TopologicalSorting.h
 CMakeFiles/mybishi.dir/main.cpp.o: ../main.cpp

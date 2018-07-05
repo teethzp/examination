@@ -4,15 +4,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/teeth/CLionProjects/mybishi/BinaryTree/BinaryTree.cpp" "/home/teeth/CLionProjects/mybishi/cmake-build-debug/CMakeFiles/mybishi.dir/BinaryTree/BinaryTree.cpp.o"
-  "/home/teeth/CLionProjects/mybishi/BreadthFirstSearch/BreadthFirst.cpp" "/home/teeth/CLionProjects/mybishi/cmake-build-debug/CMakeFiles/mybishi.dir/BreadthFirstSearch/BreadthFirst.cpp.o"
-  "/home/teeth/CLionProjects/mybishi/FirstPositionOfTarget/FirstPositionOfTarget.cpp" "/home/teeth/CLionProjects/mybishi/cmake-build-debug/CMakeFiles/mybishi.dir/FirstPositionOfTarget/FirstPositionOfTarget.cpp.o"
-  "/home/teeth/CLionProjects/mybishi/RotatedSortedArray/RotatedSortedArray.cpp" "/home/teeth/CLionProjects/mybishi/cmake-build-debug/CMakeFiles/mybishi.dir/RotatedSortedArray/RotatedSortedArray.cpp.o"
-  "/home/teeth/CLionProjects/mybishi/main.cpp" "/home/teeth/CLionProjects/mybishi/cmake-build-debug/CMakeFiles/mybishi.dir/main.cpp.o"
-  "/home/teeth/CLionProjects/mybishi/mergesort/MergeSort.cpp" "/home/teeth/CLionProjects/mybishi/cmake-build-debug/CMakeFiles/mybishi.dir/mergesort/MergeSort.cpp.o"
-  "/home/teeth/CLionProjects/mybishi/subset/SubsetIntergers.cpp" "/home/teeth/CLionProjects/mybishi/cmake-build-debug/CMakeFiles/mybishi.dir/subset/SubsetIntergers.cpp.o"
+  "/Users/teeth/CLionProjects/examination/BinaryTree/BinaryTree.cpp" "/Users/teeth/CLionProjects/examination/cmake-build-debug/CMakeFiles/mybishi.dir/BinaryTree/BinaryTree.cpp.o"
+  "/Users/teeth/CLionProjects/examination/BreadthFirstSearch/BreadthFirst.cpp" "/Users/teeth/CLionProjects/examination/cmake-build-debug/CMakeFiles/mybishi.dir/BreadthFirstSearch/BreadthFirst.cpp.o"
+  "/Users/teeth/CLionProjects/examination/FirstPositionOfTarget/FirstPositionOfTarget.cpp" "/Users/teeth/CLionProjects/examination/cmake-build-debug/CMakeFiles/mybishi.dir/FirstPositionOfTarget/FirstPositionOfTarget.cpp.o"
+  "/Users/teeth/CLionProjects/examination/RotatedSortedArray/RotatedSortedArray.cpp" "/Users/teeth/CLionProjects/examination/cmake-build-debug/CMakeFiles/mybishi.dir/RotatedSortedArray/RotatedSortedArray.cpp.o"
+  "/Users/teeth/CLionProjects/examination/main.cpp" "/Users/teeth/CLionProjects/examination/cmake-build-debug/CMakeFiles/mybishi.dir/main.cpp.o"
+  "/Users/teeth/CLionProjects/examination/mergesort/MergeSort.cpp" "/Users/teeth/CLionProjects/examination/cmake-build-debug/CMakeFiles/mybishi.dir/mergesort/MergeSort.cpp.o"
+  "/Users/teeth/CLionProjects/examination/subset/SubsetIntergers.cpp" "/Users/teeth/CLionProjects/examination/cmake-build-debug/CMakeFiles/mybishi.dir/subset/SubsetIntergers.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

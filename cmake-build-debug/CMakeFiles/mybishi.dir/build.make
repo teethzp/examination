@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/teeth/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5087.36/bin/cmake/bin/cmake
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/teeth/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5087.36/bin/cmake/bin/cmake -E remove -f
+RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/teeth/CLionProjects/mybishi
+CMAKE_SOURCE_DIR = /Users/teeth/CLionProjects/examination
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/teeth/CLionProjects/mybishi/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/teeth/CLionProjects/examination/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/mybishi.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/mybishi.dir/flags.make
 
 CMakeFiles/mybishi.dir/main.cpp.o: CMakeFiles/mybishi.dir/flags.make
 CMakeFiles/mybishi.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/teeth/CLionProjects/mybishi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/mybishi.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mybishi.dir/main.cpp.o -c /home/teeth/CLionProjects/mybishi/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/teeth/CLionProjects/examination/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/mybishi.dir/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mybishi.dir/main.cpp.o -c /Users/teeth/CLionProjects/examination/main.cpp
 
 CMakeFiles/mybishi.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mybishi.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/teeth/CLionProjects/mybishi/main.cpp > CMakeFiles/mybishi.dir/main.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/teeth/CLionProjects/examination/main.cpp > CMakeFiles/mybishi.dir/main.cpp.i
 
 CMakeFiles/mybishi.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mybishi.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/teeth/CLionProjects/mybishi/main.cpp -o CMakeFiles/mybishi.dir/main.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/teeth/CLionProjects/examination/main.cpp -o CMakeFiles/mybishi.dir/main.cpp.s
 
 CMakeFiles/mybishi.dir/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/mybishi.dir/main.cpp.o.provides.build: CMakeFiles/mybishi.dir/main.cp
 
 CMakeFiles/mybishi.dir/mergesort/MergeSort.cpp.o: CMakeFiles/mybishi.dir/flags.make
 CMakeFiles/mybishi.dir/mergesort/MergeSort.cpp.o: ../mergesort/MergeSort.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/teeth/CLionProjects/mybishi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/mybishi.dir/mergesort/MergeSort.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mybishi.dir/mergesort/MergeSort.cpp.o -c /home/teeth/CLionProjects/mybishi/mergesort/MergeSort.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/teeth/CLionProjects/examination/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/mybishi.dir/mergesort/MergeSort.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mybishi.dir/mergesort/MergeSort.cpp.o -c /Users/teeth/CLionProjects/examination/mergesort/MergeSort.cpp
 
 CMakeFiles/mybishi.dir/mergesort/MergeSort.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mybishi.dir/mergesort/MergeSort.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/teeth/CLionProjects/mybishi/mergesort/MergeSort.cpp > CMakeFiles/mybishi.dir/mergesort/MergeSort.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/teeth/CLionProjects/examination/mergesort/MergeSort.cpp > CMakeFiles/mybishi.dir/mergesort/MergeSort.cpp.i
 
 CMakeFiles/mybishi.dir/mergesort/MergeSort.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mybishi.dir/mergesort/MergeSort.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/teeth/CLionProjects/mybishi/mergesort/MergeSort.cpp -o CMakeFiles/mybishi.dir/mergesort/MergeSort.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/teeth/CLionProjects/examination/mergesort/MergeSort.cpp -o CMakeFiles/mybishi.dir/mergesort/MergeSort.cpp.s
 
 CMakeFiles/mybishi.dir/mergesort/MergeSort.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/mybishi.dir/mergesort/MergeSort.cpp.o.provides.build: CMakeFiles/mybi
 
 CMakeFiles/mybishi.dir/subset/SubsetIntergers.cpp.o: CMakeFiles/mybishi.dir/flags.make
 CMakeFiles/mybishi.dir/subset/SubsetIntergers.cpp.o: ../subset/SubsetIntergers.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/teeth/CLionProjects/mybishi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/mybishi.dir/subset/SubsetIntergers.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mybishi.dir/subset/SubsetIntergers.cpp.o -c /home/teeth/CLionProjects/mybishi/subset/SubsetIntergers.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/teeth/CLionProjects/examination/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/mybishi.dir/subset/SubsetIntergers.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mybishi.dir/subset/SubsetIntergers.cpp.o -c /Users/teeth/CLionProjects/examination/subset/SubsetIntergers.cpp
 
 CMakeFiles/mybishi.dir/subset/SubsetIntergers.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mybishi.dir/subset/SubsetIntergers.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/teeth/CLionProjects/mybishi/subset/SubsetIntergers.cpp > CMakeFiles/mybishi.dir/subset/SubsetIntergers.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/teeth/CLionProjects/examination/subset/SubsetIntergers.cpp > CMakeFiles/mybishi.dir/subset/SubsetIntergers.cpp.i
 
 CMakeFiles/mybishi.dir/subset/SubsetIntergers.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mybishi.dir/subset/SubsetIntergers.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/teeth/CLionProjects/mybishi/subset/SubsetIntergers.cpp -o CMakeFiles/mybishi.dir/subset/SubsetIntergers.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/teeth/CLionProjects/examination/subset/SubsetIntergers.cpp -o CMakeFiles/mybishi.dir/subset/SubsetIntergers.cpp.s
 
 CMakeFiles/mybishi.dir/subset/SubsetIntergers.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/mybishi.dir/subset/SubsetIntergers.cpp.o.provides.build: CMakeFiles/m
 
 CMakeFiles/mybishi.dir/FirstPositionOfTarget/FirstPositionOfTarget.cpp.o: CMakeFiles/mybishi.dir/flags.make
 CMakeFiles/mybishi.dir/FirstPositionOfTarget/FirstPositionOfTarget.cpp.o: ../FirstPositionOfTarget/FirstPositionOfTarget.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/teeth/CLionProjects/mybishi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/mybishi.dir/FirstPositionOfTarget/FirstPositionOfTarget.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mybishi.dir/FirstPositionOfTarget/FirstPositionOfTarget.cpp.o -c /home/teeth/CLionProjects/mybishi/FirstPositionOfTarget/FirstPositionOfTarget.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/teeth/CLionProjects/examination/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/mybishi.dir/FirstPositionOfTarget/FirstPositionOfTarget.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mybishi.dir/FirstPositionOfTarget/FirstPositionOfTarget.cpp.o -c /Users/teeth/CLionProjects/examination/FirstPositionOfTarget/FirstPositionOfTarget.cpp
 
 CMakeFiles/mybishi.dir/FirstPositionOfTarget/FirstPositionOfTarget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mybishi.dir/FirstPositionOfTarget/FirstPositionOfTarget.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/teeth/CLionProjects/mybishi/FirstPositionOfTarget/FirstPositionOfTarget.cpp > CMakeFiles/mybishi.dir/FirstPositionOfTarget/FirstPositionOfTarget.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/teeth/CLionProjects/examination/FirstPositionOfTarget/FirstPositionOfTarget.cpp > CMakeFiles/mybishi.dir/FirstPositionOfTarget/FirstPositionOfTarget.cpp.i
 
 CMakeFiles/mybishi.dir/FirstPositionOfTarget/FirstPositionOfTarget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mybishi.dir/FirstPositionOfTarget/FirstPositionOfTarget.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/teeth/CLionProjects/mybishi/FirstPositionOfTarget/FirstPositionOfTarget.cpp -o CMakeFiles/mybishi.dir/FirstPositionOfTarget/FirstPositionOfTarget.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/teeth/CLionProjects/examination/FirstPositionOfTarget/FirstPositionOfTarget.cpp -o CMakeFiles/mybishi.dir/FirstPositionOfTarget/FirstPositionOfTarget.cpp.s
 
 CMakeFiles/mybishi.dir/FirstPositionOfTarget/FirstPositionOfTarget.cpp.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/mybishi.dir/FirstPositionOfTarget/FirstPositionOfTarget.cpp.o.provide
 
 CMakeFiles/mybishi.dir/RotatedSortedArray/RotatedSortedArray.cpp.o: CMakeFiles/mybishi.dir/flags.make
 CMakeFiles/mybishi.dir/RotatedSortedArray/RotatedSortedArray.cpp.o: ../RotatedSortedArray/RotatedSortedArray.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/teeth/CLionProjects/mybishi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/mybishi.dir/RotatedSortedArray/RotatedSortedArray.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mybishi.dir/RotatedSortedArray/RotatedSortedArray.cpp.o -c /home/teeth/CLionProjects/mybishi/RotatedSortedArray/RotatedSortedArray.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/teeth/CLionProjects/examination/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/mybishi.dir/RotatedSortedArray/RotatedSortedArray.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mybishi.dir/RotatedSortedArray/RotatedSortedArray.cpp.o -c /Users/teeth/CLionProjects/examination/RotatedSortedArray/RotatedSortedArray.cpp
 
 CMakeFiles/mybishi.dir/RotatedSortedArray/RotatedSortedArray.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mybishi.dir/RotatedSortedArray/RotatedSortedArray.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/teeth/CLionProjects/mybishi/RotatedSortedArray/RotatedSortedArray.cpp > CMakeFiles/mybishi.dir/RotatedSortedArray/RotatedSortedArray.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/teeth/CLionProjects/examination/RotatedSortedArray/RotatedSortedArray.cpp > CMakeFiles/mybishi.dir/RotatedSortedArray/RotatedSortedArray.cpp.i
 
 CMakeFiles/mybishi.dir/RotatedSortedArray/RotatedSortedArray.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mybishi.dir/RotatedSortedArray/RotatedSortedArray.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/teeth/CLionProjects/mybishi/RotatedSortedArray/RotatedSortedArray.cpp -o CMakeFiles/mybishi.dir/RotatedSortedArray/RotatedSortedArray.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/teeth/CLionProjects/examination/RotatedSortedArray/RotatedSortedArray.cpp -o CMakeFiles/mybishi.dir/RotatedSortedArray/RotatedSortedArray.cpp.s
 
 CMakeFiles/mybishi.dir/RotatedSortedArray/RotatedSortedArray.cpp.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/mybishi.dir/RotatedSortedArray/RotatedSortedArray.cpp.o.provides.buil
 
 CMakeFiles/mybishi.dir/BinaryTree/BinaryTree.cpp.o: CMakeFiles/mybishi.dir/flags.make
 CMakeFiles/mybishi.dir/BinaryTree/BinaryTree.cpp.o: ../BinaryTree/BinaryTree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/teeth/CLionProjects/mybishi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/mybishi.dir/BinaryTree/BinaryTree.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mybishi.dir/BinaryTree/BinaryTree.cpp.o -c /home/teeth/CLionProjects/mybishi/BinaryTree/BinaryTree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/teeth/CLionProjects/examination/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/mybishi.dir/BinaryTree/BinaryTree.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mybishi.dir/BinaryTree/BinaryTree.cpp.o -c /Users/teeth/CLionProjects/examination/BinaryTree/BinaryTree.cpp
 
 CMakeFiles/mybishi.dir/BinaryTree/BinaryTree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mybishi.dir/BinaryTree/BinaryTree.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/teeth/CLionProjects/mybishi/BinaryTree/BinaryTree.cpp > CMakeFiles/mybishi.dir/BinaryTree/BinaryTree.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/teeth/CLionProjects/examination/BinaryTree/BinaryTree.cpp > CMakeFiles/mybishi.dir/BinaryTree/BinaryTree.cpp.i
 
 CMakeFiles/mybishi.dir/BinaryTree/BinaryTree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mybishi.dir/BinaryTree/BinaryTree.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/teeth/CLionProjects/mybishi/BinaryTree/BinaryTree.cpp -o CMakeFiles/mybishi.dir/BinaryTree/BinaryTree.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/teeth/CLionProjects/examination/BinaryTree/BinaryTree.cpp -o CMakeFiles/mybishi.dir/BinaryTree/BinaryTree.cpp.s
 
 CMakeFiles/mybishi.dir/BinaryTree/BinaryTree.cpp.o.requires:
 
@@ -203,16 +203,16 @@ CMakeFiles/mybishi.dir/BinaryTree/BinaryTree.cpp.o.provides.build: CMakeFiles/my
 
 CMakeFiles/mybishi.dir/BreadthFirstSearch/BreadthFirst.cpp.o: CMakeFiles/mybishi.dir/flags.make
 CMakeFiles/mybishi.dir/BreadthFirstSearch/BreadthFirst.cpp.o: ../BreadthFirstSearch/BreadthFirst.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/teeth/CLionProjects/mybishi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/mybishi.dir/BreadthFirstSearch/BreadthFirst.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mybishi.dir/BreadthFirstSearch/BreadthFirst.cpp.o -c /home/teeth/CLionProjects/mybishi/BreadthFirstSearch/BreadthFirst.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/teeth/CLionProjects/examination/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/mybishi.dir/BreadthFirstSearch/BreadthFirst.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mybishi.dir/BreadthFirstSearch/BreadthFirst.cpp.o -c /Users/teeth/CLionProjects/examination/BreadthFirstSearch/BreadthFirst.cpp
 
 CMakeFiles/mybishi.dir/BreadthFirstSearch/BreadthFirst.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mybishi.dir/BreadthFirstSearch/BreadthFirst.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/teeth/CLionProjects/mybishi/BreadthFirstSearch/BreadthFirst.cpp > CMakeFiles/mybishi.dir/BreadthFirstSearch/BreadthFirst.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/teeth/CLionProjects/examination/BreadthFirstSearch/BreadthFirst.cpp > CMakeFiles/mybishi.dir/BreadthFirstSearch/BreadthFirst.cpp.i
 
 CMakeFiles/mybishi.dir/BreadthFirstSearch/BreadthFirst.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mybishi.dir/BreadthFirstSearch/BreadthFirst.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/teeth/CLionProjects/mybishi/BreadthFirstSearch/BreadthFirst.cpp -o CMakeFiles/mybishi.dir/BreadthFirstSearch/BreadthFirst.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/teeth/CLionProjects/examination/BreadthFirstSearch/BreadthFirst.cpp -o CMakeFiles/mybishi.dir/BreadthFirstSearch/BreadthFirst.cpp.s
 
 CMakeFiles/mybishi.dir/BreadthFirstSearch/BreadthFirst.cpp.o.requires:
 
@@ -247,7 +247,7 @@ mybishi: CMakeFiles/mybishi.dir/BinaryTree/BinaryTree.cpp.o
 mybishi: CMakeFiles/mybishi.dir/BreadthFirstSearch/BreadthFirst.cpp.o
 mybishi: CMakeFiles/mybishi.dir/build.make
 mybishi: CMakeFiles/mybishi.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/teeth/CLionProjects/mybishi/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable mybishi"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/teeth/CLionProjects/examination/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable mybishi"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mybishi.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -270,6 +270,6 @@ CMakeFiles/mybishi.dir/clean:
 .PHONY : CMakeFiles/mybishi.dir/clean
 
 CMakeFiles/mybishi.dir/depend:
-	cd /home/teeth/CLionProjects/mybishi/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/teeth/CLionProjects/mybishi /home/teeth/CLionProjects/mybishi /home/teeth/CLionProjects/mybishi/cmake-build-debug /home/teeth/CLionProjects/mybishi/cmake-build-debug /home/teeth/CLionProjects/mybishi/cmake-build-debug/CMakeFiles/mybishi.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/teeth/CLionProjects/examination/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/teeth/CLionProjects/examination /Users/teeth/CLionProjects/examination /Users/teeth/CLionProjects/examination/cmake-build-debug /Users/teeth/CLionProjects/examination/cmake-build-debug /Users/teeth/CLionProjects/examination/cmake-build-debug/CMakeFiles/mybishi.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/mybishi.dir/depend
 

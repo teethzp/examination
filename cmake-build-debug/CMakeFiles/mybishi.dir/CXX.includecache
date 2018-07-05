@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/teeth/CLionProjects/mybishi/BinaryTree/BinaryTree.cpp
+/Users/teeth/CLionProjects/examination/BinaryTree/BinaryTree.cpp
 iostream
 -
 BinaryTree.h
-/home/teeth/CLionProjects/mybishi/BinaryTree/BinaryTree.h
+/Users/teeth/CLionProjects/examination/BinaryTree/BinaryTree.h
 
-/home/teeth/CLionProjects/mybishi/BinaryTree/BinaryTree.h
+/Users/teeth/CLionProjects/examination/BinaryTree/BinaryTree.h
 vector
 -
 string
@@ -20,11 +20,11 @@ string
 queue
 -
 
-/home/teeth/CLionProjects/mybishi/BreadthFirstSearch/BreadthFirst.cpp
+/Users/teeth/CLionProjects/examination/BreadthFirstSearch/BreadthFirst.cpp
 BreadthFirst.h
-/home/teeth/CLionProjects/mybishi/BreadthFirstSearch/BreadthFirst.h
+/Users/teeth/CLionProjects/examination/BreadthFirstSearch/BreadthFirst.h
 
-/home/teeth/CLionProjects/mybishi/BreadthFirstSearch/BreadthFirst.h
+/Users/teeth/CLionProjects/examination/BreadthFirstSearch/BreadthFirst.h
 vector
 -
 utility
@@ -36,19 +36,25 @@ queue
 unordered_map
 -
 
-/home/teeth/CLionProjects/mybishi/FirstPositionOfTarget/FirstPositionOfTarget.cpp
-FirstPositionOfTarget.h
-/home/teeth/CLionProjects/mybishi/FirstPositionOfTarget/FirstPositionOfTarget.h
-
-/home/teeth/CLionProjects/mybishi/FirstPositionOfTarget/FirstPositionOfTarget.h
-
-/home/teeth/CLionProjects/mybishi/FirstPositionOfTarget/FirstPositionOfTargetTest.h
-FirstPositionOfTarget.h
-/home/teeth/CLionProjects/mybishi/FirstPositionOfTarget/FirstPositionOfTarget.h
+/Users/teeth/CLionProjects/examination/CombinationSum/CombinationSum.h
+vector
+-
 iostream
 -
 
-/home/teeth/CLionProjects/mybishi/NumberOfIslands/NumberOfIslands.h
+/Users/teeth/CLionProjects/examination/FirstPositionOfTarget/FirstPositionOfTarget.cpp
+FirstPositionOfTarget.h
+/Users/teeth/CLionProjects/examination/FirstPositionOfTarget/FirstPositionOfTarget.h
+
+/Users/teeth/CLionProjects/examination/FirstPositionOfTarget/FirstPositionOfTarget.h
+
+/Users/teeth/CLionProjects/examination/FirstPositionOfTarget/FirstPositionOfTargetTest.h
+FirstPositionOfTarget.h
+/Users/teeth/CLionProjects/examination/FirstPositionOfTarget/FirstPositionOfTarget.h
+iostream
+-
+
+/Users/teeth/CLionProjects/examination/NumberOfIslands/NumberOfIslands.h
 vector
 -
 iostream
@@ -56,13 +62,21 @@ iostream
 queue
 -
 
-/home/teeth/CLionProjects/mybishi/RotatedSortedArray/RotatedSortedArray.cpp
+/Users/teeth/CLionProjects/examination/Permmutations/Permutations.h
+iostream
+-
+unordered_set
+-
+vector
+-
+
+/Users/teeth/CLionProjects/examination/RotatedSortedArray/RotatedSortedArray.cpp
 RotatedSortedArray.h
-/home/teeth/CLionProjects/mybishi/RotatedSortedArray/RotatedSortedArray.h
+/Users/teeth/CLionProjects/examination/RotatedSortedArray/RotatedSortedArray.h
 
-/home/teeth/CLionProjects/mybishi/RotatedSortedArray/RotatedSortedArray.h
+/Users/teeth/CLionProjects/examination/RotatedSortedArray/RotatedSortedArray.h
 
-/home/teeth/CLionProjects/mybishi/TopologicalSorting/TopologicalSorting.h
+/Users/teeth/CLionProjects/examination/TopologicalSorting/TopologicalSorting.h
 vector
 -
 map
@@ -72,49 +86,53 @@ queue
 iostream
 -
 
-/home/teeth/CLionProjects/mybishi/main.cpp
+/Users/teeth/CLionProjects/examination/main.cpp
 iostream
 -
 mergesort/MergeSortTest.h
-/home/teeth/CLionProjects/mybishi/mergesort/MergeSortTest.h
+/Users/teeth/CLionProjects/examination/mergesort/MergeSortTest.h
 subset/SubsetTest.h
-/home/teeth/CLionProjects/mybishi/subset/SubsetTest.h
+/Users/teeth/CLionProjects/examination/subset/SubsetTest.h
 FirstPositionOfTarget/FirstPositionOfTargetTest.h
-/home/teeth/CLionProjects/mybishi/FirstPositionOfTarget/FirstPositionOfTargetTest.h
+/Users/teeth/CLionProjects/examination/FirstPositionOfTarget/FirstPositionOfTargetTest.h
 RotatedSortedArray/RotatedSortedArray.h
-/home/teeth/CLionProjects/mybishi/RotatedSortedArray/RotatedSortedArray.h
+/Users/teeth/CLionProjects/examination/RotatedSortedArray/RotatedSortedArray.h
 BinaryTree/BinaryTree.h
-/home/teeth/CLionProjects/mybishi/BinaryTree/BinaryTree.h
+/Users/teeth/CLionProjects/examination/BinaryTree/BinaryTree.h
 NumberOfIslands/NumberOfIslands.h
-/home/teeth/CLionProjects/mybishi/NumberOfIslands/NumberOfIslands.h
+/Users/teeth/CLionProjects/examination/NumberOfIslands/NumberOfIslands.h
 TopologicalSorting/TopologicalSorting.h
-/home/teeth/CLionProjects/mybishi/TopologicalSorting/TopologicalSorting.h
+/Users/teeth/CLionProjects/examination/TopologicalSorting/TopologicalSorting.h
+CombinationSum/CombinationSum.h
+/Users/teeth/CLionProjects/examination/CombinationSum/CombinationSum.h
+Permmutations/Permutations.h
+/Users/teeth/CLionProjects/examination/Permmutations/Permutations.h
 
-/home/teeth/CLionProjects/mybishi/mergesort/MergeSort.cpp
+/Users/teeth/CLionProjects/examination/mergesort/MergeSort.cpp
 MergeSort.h
-/home/teeth/CLionProjects/mybishi/mergesort/MergeSort.h
+/Users/teeth/CLionProjects/examination/mergesort/MergeSort.h
 
-/home/teeth/CLionProjects/mybishi/mergesort/MergeSort.h
+/Users/teeth/CLionProjects/examination/mergesort/MergeSort.h
 
-/home/teeth/CLionProjects/mybishi/mergesort/MergeSortTest.h
+/Users/teeth/CLionProjects/examination/mergesort/MergeSortTest.h
 MergeSort.h
-/home/teeth/CLionProjects/mybishi/mergesort/MergeSort.h
+/Users/teeth/CLionProjects/examination/mergesort/MergeSort.h
 iostream
-/home/teeth/CLionProjects/mybishi/mergesort/iostream
+/Users/teeth/CLionProjects/examination/mergesort/iostream
 
-/home/teeth/CLionProjects/mybishi/subset/SubsetIntergers.cpp
+/Users/teeth/CLionProjects/examination/subset/SubsetIntergers.cpp
 algorithm
 -
 SubsetIntergers.h
-/home/teeth/CLionProjects/mybishi/subset/SubsetIntergers.h
+/Users/teeth/CLionProjects/examination/subset/SubsetIntergers.h
 
-/home/teeth/CLionProjects/mybishi/subset/SubsetIntergers.h
+/Users/teeth/CLionProjects/examination/subset/SubsetIntergers.h
 vector
 -
 
-/home/teeth/CLionProjects/mybishi/subset/SubsetTest.h
+/Users/teeth/CLionProjects/examination/subset/SubsetTest.h
 SubsetIntergers.h
-/home/teeth/CLionProjects/mybishi/subset/SubsetIntergers.h
+/Users/teeth/CLionProjects/examination/subset/SubsetIntergers.h
 iostream
 -
 

@@ -8,140 +8,150 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/teeth/CLionProjects/mybishi/cmake-build-debug"/>
+				<Option working_dir="/Users/teeth/CLionProjects/examination/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/teeth/CLionProjects/mybishi/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/teeth/CLionProjects/mybishi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/teeth/CLionProjects/mybishi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/teeth/CLionProjects/mybishi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/teeth/CLionProjects/examination/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/teeth/CLionProjects/examination/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/teeth/CLionProjects/examination/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/teeth/CLionProjects/examination/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/teeth/CLionProjects/mybishi/cmake-build-debug"/>
+				<Option working_dir="/Users/teeth/CLionProjects/examination/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/teeth/CLionProjects/mybishi/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/teeth/CLionProjects/mybishi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/teeth/CLionProjects/mybishi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/teeth/CLionProjects/mybishi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/teeth/CLionProjects/examination/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/teeth/CLionProjects/examination/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/teeth/CLionProjects/examination/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/teeth/CLionProjects/examination/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/teeth/CLionProjects/mybishi/cmake-build-debug"/>
+				<Option working_dir="/Users/teeth/CLionProjects/examination/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/teeth/CLionProjects/mybishi/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/teeth/CLionProjects/mybishi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/teeth/CLionProjects/mybishi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/teeth/CLionProjects/mybishi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/teeth/CLionProjects/examination/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/teeth/CLionProjects/examination/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/teeth/CLionProjects/examination/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/teeth/CLionProjects/examination/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="mybishi">
-				<Option output="/home/teeth/CLionProjects/mybishi/cmake-build-debug/mybishi" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/teeth/CLionProjects/mybishi/cmake-build-debug"/>
+				<Option output="/Users/teeth/CLionProjects/examination/cmake-build-debug/mybishi" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/teeth/CLionProjects/examination/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
 					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/teeth/CLionProjects/mybishi/cmake-build-debug/Makefile&quot;  VERBOSE=1 mybishi"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/teeth/CLionProjects/mybishi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/teeth/CLionProjects/mybishi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/teeth/CLionProjects/mybishi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/teeth/CLionProjects/examination/cmake-build-debug/Makefile&quot;  VERBOSE=1 mybishi"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/teeth/CLionProjects/examination/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/teeth/CLionProjects/examination/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/teeth/CLionProjects/examination/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="mybishi/fast">
-				<Option output="/home/teeth/CLionProjects/mybishi/cmake-build-debug/mybishi" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/teeth/CLionProjects/mybishi/cmake-build-debug"/>
+				<Option output="/Users/teeth/CLionProjects/examination/cmake-build-debug/mybishi" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/teeth/CLionProjects/examination/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
 					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/teeth/CLionProjects/mybishi/cmake-build-debug/Makefile&quot;  VERBOSE=1 mybishi/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/teeth/CLionProjects/mybishi/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/teeth/CLionProjects/mybishi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/teeth/CLionProjects/mybishi/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/teeth/CLionProjects/examination/cmake-build-debug/Makefile&quot;  VERBOSE=1 mybishi/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/teeth/CLionProjects/examination/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/teeth/CLionProjects/examination/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/teeth/CLionProjects/examination/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/teeth/CLionProjects/mybishi/BinaryTree/BinaryTree.cpp">
+		<Unit filename="/Users/teeth/CLionProjects/examination/BinaryTree/BinaryTree.cpp">
 			<Option target="mybishi"/>
 		</Unit>
-		<Unit filename="/home/teeth/CLionProjects/mybishi/BinaryTree/BinaryTree.h">
+		<Unit filename="/Users/teeth/CLionProjects/examination/BinaryTree/BinaryTree.h">
 			<Option target="mybishi"/>
 		</Unit>
-		<Unit filename="/home/teeth/CLionProjects/mybishi/BreadthFirstSearch/BreadthFirst.cpp">
+		<Unit filename="/Users/teeth/CLionProjects/examination/BreadthFirstSearch/BreadthFirst.cpp">
 			<Option target="mybishi"/>
 		</Unit>
-		<Unit filename="/home/teeth/CLionProjects/mybishi/BreadthFirstSearch/BreadthFirst.h">
+		<Unit filename="/Users/teeth/CLionProjects/examination/BreadthFirstSearch/BreadthFirst.h">
 			<Option target="mybishi"/>
 		</Unit>
-		<Unit filename="/home/teeth/CLionProjects/mybishi/FirstPositionOfTarget/FirstPositionOfTarget.cpp">
+		<Unit filename="/Users/teeth/CLionProjects/examination/CombinationSum/CombinationSum.h">
 			<Option target="mybishi"/>
 		</Unit>
-		<Unit filename="/home/teeth/CLionProjects/mybishi/FirstPositionOfTarget/FirstPositionOfTarget.h">
+		<Unit filename="/Users/teeth/CLionProjects/examination/FirstPositionOfTarget/FirstPositionOfTarget.cpp">
 			<Option target="mybishi"/>
 		</Unit>
-		<Unit filename="/home/teeth/CLionProjects/mybishi/FirstPositionOfTarget/FirstPositionOfTargetTest.h">
+		<Unit filename="/Users/teeth/CLionProjects/examination/FirstPositionOfTarget/FirstPositionOfTarget.h">
 			<Option target="mybishi"/>
 		</Unit>
-		<Unit filename="/home/teeth/CLionProjects/mybishi/NumberOfIslands/NumberOfIslands.h">
+		<Unit filename="/Users/teeth/CLionProjects/examination/FirstPositionOfTarget/FirstPositionOfTargetTest.h">
 			<Option target="mybishi"/>
 		</Unit>
-		<Unit filename="/home/teeth/CLionProjects/mybishi/RotatedSortedArray/RotatedSortedArray.cpp">
+		<Unit filename="/Users/teeth/CLionProjects/examination/NQueens/NQueens.h">
 			<Option target="mybishi"/>
 		</Unit>
-		<Unit filename="/home/teeth/CLionProjects/mybishi/RotatedSortedArray/RotatedSortedArray.h">
+		<Unit filename="/Users/teeth/CLionProjects/examination/NumberOfIslands/NumberOfIslands.h">
 			<Option target="mybishi"/>
 		</Unit>
-		<Unit filename="/home/teeth/CLionProjects/mybishi/TopologicalSorting/TopologicalSorting.h">
+		<Unit filename="/Users/teeth/CLionProjects/examination/Permmutations/Permutations.h">
 			<Option target="mybishi"/>
 		</Unit>
-		<Unit filename="/home/teeth/CLionProjects/mybishi/ZombieInMatrix/ZombieMatrix.h">
+		<Unit filename="/Users/teeth/CLionProjects/examination/Permmutations/Permutations2.h">
 			<Option target="mybishi"/>
 		</Unit>
-		<Unit filename="/home/teeth/CLionProjects/mybishi/main.cpp">
+		<Unit filename="/Users/teeth/CLionProjects/examination/RotatedSortedArray/RotatedSortedArray.cpp">
 			<Option target="mybishi"/>
 		</Unit>
-		<Unit filename="/home/teeth/CLionProjects/mybishi/mergesort/MergeSort.cpp">
+		<Unit filename="/Users/teeth/CLionProjects/examination/RotatedSortedArray/RotatedSortedArray.h">
 			<Option target="mybishi"/>
 		</Unit>
-		<Unit filename="/home/teeth/CLionProjects/mybishi/mergesort/MergeSort.h">
+		<Unit filename="/Users/teeth/CLionProjects/examination/TopologicalSorting/TopologicalSorting.h">
 			<Option target="mybishi"/>
 		</Unit>
-		<Unit filename="/home/teeth/CLionProjects/mybishi/mergesort/MergeSortTest.h">
+		<Unit filename="/Users/teeth/CLionProjects/examination/ZombieInMatrix/ZombieMatrix.h">
 			<Option target="mybishi"/>
 		</Unit>
-		<Unit filename="/home/teeth/CLionProjects/mybishi/subset/SubsetIntergers.cpp">
+		<Unit filename="/Users/teeth/CLionProjects/examination/main.cpp">
 			<Option target="mybishi"/>
 		</Unit>
-		<Unit filename="/home/teeth/CLionProjects/mybishi/subset/SubsetIntergers.h">
+		<Unit filename="/Users/teeth/CLionProjects/examination/mergesort/MergeSort.cpp">
 			<Option target="mybishi"/>
 		</Unit>
-		<Unit filename="/home/teeth/CLionProjects/mybishi/subset/SubsetTest.h">
+		<Unit filename="/Users/teeth/CLionProjects/examination/mergesort/MergeSort.h">
 			<Option target="mybishi"/>
 		</Unit>
-		<Unit filename="/home/teeth/CLionProjects/mybishi/CMakeLists.txt">
+		<Unit filename="/Users/teeth/CLionProjects/examination/mergesort/MergeSortTest.h">
+			<Option target="mybishi"/>
+		</Unit>
+		<Unit filename="/Users/teeth/CLionProjects/examination/subset/SubsetIntergers.cpp">
+			<Option target="mybishi"/>
+		</Unit>
+		<Unit filename="/Users/teeth/CLionProjects/examination/subset/SubsetIntergers.h">
+			<Option target="mybishi"/>
+		</Unit>
+		<Unit filename="/Users/teeth/CLionProjects/examination/subset/SubsetTest.h">
+			<Option target="mybishi"/>
+		</Unit>
+		<Unit filename="/Users/teeth/CLionProjects/examination/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

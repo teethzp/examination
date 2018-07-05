@@ -6,6 +6,8 @@
 #include "BinaryTree/BinaryTree.h"
 #include "NumberOfIslands/NumberOfIslands.h"
 #include "TopologicalSorting/TopologicalSorting.h"
+#include "CombinationSum/CombinationSum.h"
+#include "Permmutations/Permutations.h"
 
 using namespace std;
 
@@ -77,12 +79,19 @@ int main() {
 
     // 测试二叉树层级遍历
 
-        // 测试拓扑排序
+    // 测试拓扑排序
 //    TopologicalSortingTest test;
 //    test.Test();
 
 //    // 测试岛屿个数
 //    NumberOfIslandsTest test;
 //    test.Test();
-    
+
+//        // 测试CombinationSum
+//    CombinationSumTest so;
+//    so.Test();
+
+    // 测试不带重复元素的排列
+    PermutationsTest test;
+    test.Test();
 }

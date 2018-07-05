@@ -9,6 +9,8 @@
 
 using namespace std;
 
+// 本题nums中没有重复数据
+
 class SubsetIntergers {
 public:
     vector<vector<int>> Subset(int nums[], int size);

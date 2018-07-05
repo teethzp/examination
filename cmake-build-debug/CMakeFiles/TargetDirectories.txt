@@ -1,3 +1,3 @@
-/home/teeth/CLionProjects/mybishi/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/teeth/CLionProjects/mybishi/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/teeth/CLionProjects/mybishi/cmake-build-debug/CMakeFiles/mybishi.dir
+/Users/teeth/CLionProjects/examination/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/teeth/CLionProjects/examination/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/teeth/CLionProjects/examination/cmake-build-debug/CMakeFiles/mybishi.dir
