@@ -1,6 +1,7 @@
 #!/usr/bin/env escript
 
 % leetcode 11
+% use two pointer can get better answer (only one xunhun)
 
 % 思路：
 % 有点像组合，向DFS靠
