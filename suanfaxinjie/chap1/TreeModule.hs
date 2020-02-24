@@ -6,10 +6,19 @@
 -- 值构造器的本质是一个函数，可以返回一个类型的值
 -- 这里a是类型参数，表示任意类型 data Tree a 说明Tree这个数据类型只有一个类型参数
 -- 有一个以上值构造器的数据类型称为代数数据类型algebraic data type
--- 这里不需要定义Node这个数据类型吗？？
-data Tree a = Empty | Node (Tree a) a (Tree a)
+-- Node是构造函数
+data Tree a = Empty | Node (Tree a) a (Tree a) -- data Tree a中Tree是想定义的数据类型，a是任意一种现有的数据类型；Node是构造函数；Node后面是构造函数的参数，构造函数的返回值类型就是定义的数据类型
 
--- 插入一个节点
+-- 插入一个节点 通过insert函数可以构建一个二叉搜索树
 insert Empty k = Node Empty k Empty
 insert (Node l x r) k | k < x  = Node (insert l k) x r
                       | otherwise = Node l x (insert r k)
+
+-- 遍历树：中序遍历一个二叉搜索树为一个List，得到从小到大排序的序列
+bstToList Empty = []
+bstToList (Node l x r) = bstToList l ++ [x] ++ bstToList r -- 函数入参是Tree。Node是构造函数，l x r是构造函数的三个入参
+
+-- 树排序
+-- 先根据无序的序列生成一棵二叉搜索树，再遍历
+-- sort(X)=bToList(formList(X))
+-- formList(X)=foldL(insert, Empty, X) 即 formList = foldL insert Empty   ：partial application形式
