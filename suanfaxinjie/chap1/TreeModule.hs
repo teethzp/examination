@@ -10,9 +10,9 @@
 data Tree a = Empty | Node (Tree a) a (Tree a) -- data Tree a中Tree是想定义的数据类型，a是任意一种现有的数据类型；Node是构造函数；Node后面是构造函数的参数，构造函数的返回值类型就是定义的数据类型
 
 -- 插入一个节点 通过insert函数可以构建一个二叉搜索树
-insert Empty k = Node Empty k Empty
-insert (Node l x r) k | k < x  = Node (insert l k) x r
-                      | otherwise = Node l x (insert r k)
+insertToBST Empty k = Node Empty k Empty
+insertToBST (Node l x r) k | k < x  = Node (insertToBST l k) x r
+                      | otherwise = Node l x (insertToBST r k)
 
 -- 遍历树：中序遍历一个二叉搜索树为一个List，得到从小到大排序的序列
 bstToList Empty = []
@@ -22,3 +22,14 @@ bstToList (Node l x r) = bstToList l ++ [x] ++ bstToList r -- 函数入参是Tre
 -- 先根据无序的序列生成一棵二叉搜索树，再遍历
 -- sort(X)=bToList(formList(X))
 -- formList(X)=foldL(insert, Empty, X) 即 formList = foldL insert Empty   ：partial application形式
+-- formList xs = foldL(insertToBST, Empty, xs)
+
+-- 搜索
+bstLookup Empty _ = Empty
+bstLookup t@(Node l x r) k | k == x = t
+                           | k < x = bstLookup l k
+                           | otherwise = bstLookup r k
+
+-- 最小值：左子树为空时，这个节点就是最小值
+bstMin (Node Empty x _) = x
+bstMin (Node l x _) = bstMin l
